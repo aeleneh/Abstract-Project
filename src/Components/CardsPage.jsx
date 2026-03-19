@@ -5,11 +5,11 @@ const CardsPage = () => {
   return (
     <>
      <section className='bg-white px-6 py-10 md:px-16 lg:px-24 w-full'>
-      <div className='grid grid-cols-1 gap-3 py-8 px-2 md:p-4 md:gap-8 md:grid-cols-2'>
+      <div className='grid grid-cols-1 gap-3 py-6 px-2 md:p-4 md:gap-8 md:grid-cols-2'>
         {cardData.map((item) => {
           const Icon = item.icon 
           return (
-            <div key={item.id} className="flex flex-col md:flex-row items-center md:items-start gap-6 mt-8 md:mt-14">
+            <div key={item.id} className="flex flex-col md:flex-row md:items-start gap-4 mt-8 md:mt-14">
               <div className='shrink-0'>
                 <Icon/>
               </div>
