@@ -46,15 +46,14 @@ const PageFooter = () => {
                         <li><a href="#" className='hover:text-white'>info@abstract.com</a></li>
                     </ul>
                 </div>
+            <div >
+            {/*<img src={abstractLogo} alt="Abstract Logo" className='w-8 h-8 md:w-10 md:h-10 invert mb-2'/>*/}
+            <div className='mt-2'>
+                <p className='text-sm text-gray-400 space-y-2'>© Copyright 2022</p>
+                <p className='text-sm text-gray-400 space-y-2'>Abstract Studio Design, Inc.</p>
+                <p className='text-sm text-gray-400 space-y-2'>All rights reserved</p>
             </div>
-        </div>
-
-        <div className='flex flex-col items-start md:items-end mt-6 px-4 max-w-5xl mx-auto'>
-            <img src={abstractLogo} alt="Abstract Logo" className='w-8 h-8 md:w-10 md:h-10 invert mb-2'/>
-            <div>
-            <p className='text-sm text-gray-400 space-y-2'>© Copyright 2022</p>
-            <p className='text-sm text-gray-400 space-y-2'>Abstract Studio Design, Inc.</p>
-            <p className='text-sm text-gray-400 space-y-2'>All rights reserved</p>
+           </div>
             </div>
         </div>
      </footer>
